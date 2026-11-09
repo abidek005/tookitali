@@ -1,0 +1,9 @@
+{
+  "name": "qa-api-fixture-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A lightweight TypeScript toolkit for validating API test fixtures and producing actionable QA reports.",
+  "scripts": {"test": "vitest run", "test:watch": "vitest", "typecheck": "tsc --noEmit"},
+  "devDependencies": {"typescript": "^5.7.3", "vitest": "^2.1.8"},
+  "engines": {"node": ">=20"}
+}
